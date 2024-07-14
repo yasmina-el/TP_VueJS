@@ -1,0 +1,15 @@
+meta {
+  name: getBill
+  type: http
+  seq: 2
+}
+
+get {
+  url: {{url}}/bills/:id
+  body: none
+  auth: none
+}
+
+params:path {
+  id: 123
+}
